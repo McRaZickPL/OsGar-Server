@@ -10,9 +10,4 @@ you get special ip to connect to your friends servers
 and play with them. (OsGar is still upgrading)
 <br>
 <h2>Versions</h2><br>
-<h5>V-1.0 alfa, [NOT-WORKING] connection fallback!</h5><br>
-<h5>V-1.1 alfa, [ACCTUAL] still upgrading...</h5><br>
-<h5>V-1.2 alfa, [FEATURE] comming soon...</h5><br>
-<h5>V-1.3 alfa, [FEATURE] comming soon...</h5><br>
-<h5>V-1.4 alfa, [FEATURE] comming soon...</h5><br>
-<h5>V-1.5 alfa, [FEATURE] comming soon...</h5><br>
+If you want to download lastest Versions click (to another page) there will be lastest versions that you can download for free. i think better is to download version here because .bat and other files are in currect order, if you goana download Zip from git hub then everything that you had download will be messy and sometimes .bat will not work soo click (here) and it will automaticly take you to page where you can download versions of OsGar.
