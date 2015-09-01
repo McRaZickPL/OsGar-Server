@@ -1,5 +1,6 @@
 # OsGar-Server
 ===
+<h2>YOUR PORT IS 45455</h2>
 
 <h2>Informations</h2>
 This file is a server for website called Agar.io
@@ -15,5 +16,3 @@ and play with them. (OsGar is still upgrading)
 <h5>V-1.3 alfa, [FEATURE] comming soon...</h5><br>
 <h5>V-1.4 alfa, [FEATURE] comming soon...</h5><br>
 <h5>V-1.5 alfa, [FEATURE] comming soon...</h5><br>
-<h2>Passnumber=PORT</h2>
-Your port is <p>45455</p>
