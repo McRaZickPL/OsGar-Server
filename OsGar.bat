@@ -1,11 +1,39 @@
-#OsGar.bat#
-
-############
-SYSTEM(s)CM
-############
-
+cls
 @echo off
-color 4
+
+echo #OsGar.bat#
+echo #SYSTEM(s)CM#
+cls
+
+
+:sytempassword
+cls
+set /p num=OsGar-PORT:
+
+if %num%==45455 (
+echo Loading... please wait
+ping localhost -n 4 >nul
+goto system
+)
+
+
+if %num% GTR 45455 (
+echo Loading... please wait
+ping localhost -n 3 >nul
+goto inp
+)
+
+if %num% LSS 45455 (
+echo Loading... please wait
+ping localhost -n 2 >nul
+goto inp
+)
+
+:inp 
+cls
+echo OsGar-PORT is incorrect
+pause
+goto sytempassword
 
 :system
 cls
@@ -39,21 +67,23 @@ goto system2
 :system2
 cls
 color f
-echo Welcome to OsGar, Made by McRaZickPL                         command -help
-echo Running on port 45455
-echo Server to Agar.io Free for all
+echo --------------------------------------                  open command list -help
+echo :Welcome to OsGar, Made by McRaZickPL                   
+echo :Running on port 45455               
+echo :Server to Agar.io Free for all      
+echo --------------------------------------
 echo.
 set /p PROGRAM= CM:
 goto %PROGRAM%
 
 :help
-echo ==========================================================================
+echo ===============================================================================
 echo -help    Opening the list that might help you with some staff
-echo -home    Back to menu) 
+echo -home    Back to menu
 echo -OsGar   Connect to the Agar.io
 echo -reload  Reload any changes
 echo -clear   Clear screan
-echo ==========================================================================
+echo ===============================================================================
 set /p PROGRAM= CM:
 goto %PROGRAM%
 
@@ -137,8 +167,9 @@ goto system2
 
 
 :reload
+cls
+goto system2
 
 :clear
 cls
 goto system2
-
