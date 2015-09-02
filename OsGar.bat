@@ -81,7 +81,7 @@ goto %PROGRAM%
 echo ===============================================================================
 echo -help    Opening the list that might help you with some staff
 echo -home    Back to menu
-echo -OsGar   Connect to the Agar.io
+echo -OsGar   Download Ws and Connect to Agar.io
 echo -reload  Reload any changes
 echo -clear   Clear screan
 echo ===============================================================================
@@ -98,7 +98,7 @@ goto system2
 
 :OsGar
 cls
-install ws
+npm install ws
 echo -made by McRaZickPL
 echo Connecting.
 ping localhost -n 2 >nul
