@@ -98,6 +98,7 @@ goto system2
 
 :OsGar
 cls
+install ws
 echo -made by McRaZickPL
 echo Connecting.
 ping localhost -n 2 >nul
@@ -140,27 +141,27 @@ ping localhost -n 5 >nul
 cls
 color 6
 cls
-echo Cannot connect to the localhost
+echo "ws" had been downloaded, Cannot connect to the localhost
 echo 5
 ping localhost -n 2 >nul
 cls
-echo Cannot connect to the localhost
+echo "ws" had been downloaded, Cannot connect to the localhost
 echo 4
 ping localhost -n 2 >nul
 cls
-echo Cannot connect to the localhost
+echo "ws" had been downloaded, Cannot connect to the localhost
 echo 3
 ping localhost -n 2 >nul
 cls
-echo Cannot connect to the localhost
+echo "ws" had been downloaded, Cannot connect to the localhost
 echo 2
 ping localhost -n 2 >nul
 cls
-echo Cannot connect to the localhost
+echo "ws" had been downloaded, Cannot connect to the localhost
 echo 1
 ping localhost -n 2 >nul
 cls
-echo Cannot connect to the localhost
+echo "ws" had been downloaded, Cannot connect to the localhost
 echo 0
 ping localhost -n 2 >nul
 color f
