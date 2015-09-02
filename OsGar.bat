@@ -67,11 +67,11 @@ goto system2
 :system2
 cls
 color f
-echo --------------------------------------                  open command list -help
-echo :Welcome to OsGar, Made by McRaZickPL                   
-echo :Running on port 45455               
-echo :Server to Agar.io Free for all      
-echo --------------------------------------
+echo --------------------------------------  ####    ###  ######  command list -help
+echo :Welcome to OsGar, Made by McRaZickPL  ##  ##  ##   ##        ####             
+echo :Running on port 45455                 ##  ##   ##  ##  ###  ##  ##   ####     
+echo :Server to Agar.io Free for all         ####   ##   ##    ## ######  ##        
+echo --------------------------------------               ######  ##  ##  ##        
 echo.
 set /p PROGRAM= CM:
 goto %PROGRAM%
