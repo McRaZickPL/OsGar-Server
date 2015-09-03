@@ -95,10 +95,20 @@ goto %PROGRAM%
 COMMAND LIST
 #############
 
+:edit
+edit
+goto %PROGRAM%
+
 :ADMINLOGIN45455
 cls
-edit OsGar
-echo -reload  (Reload system, save system and restart system)
+mode 200
+echo ########################  ######################  #################
+echo ## ADMINISTRATOR ROOM ##  ##  ADMIN COMMANDS  ##  ## VERSION 1.2 ##
+echo ########################  ######################  #################
+echo                           ## -edit45455       ##
+echo                           ## -ADMINLOGIN45455 ##
+echo                           ######################
+echo
 goto %PROGRAM%
 
 :home
