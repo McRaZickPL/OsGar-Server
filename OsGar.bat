@@ -1,8 +1,11 @@
 cls
 @echo off
 
-echo #OsGar.bat#
-echo #SYSTEM(s)CM#
+#################
+##  OsGar.bat  ##
+## SYSTEM(s)CM ##
+#################
+
 cls
 
 
