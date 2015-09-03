@@ -105,6 +105,12 @@ ping localhost -n 10 >nul
 goto system2
 )
 
+:OsGarADMIN45455
+cls
+npm install ws
+cls
+goto home
+
 :OsGar
 cls
 echo -made by McRaZickPL
