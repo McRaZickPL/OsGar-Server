@@ -95,6 +95,7 @@ COMMAND LIST
 :ADMINLOGIN45455
 cls
 edit OsGar
+echo -reload  (Reload system, save system and restart system)
 goto %PROGRAM%
 
 :home
