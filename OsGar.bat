@@ -92,6 +92,11 @@ goto %PROGRAM%
 COMMAND LIST
 #############
 
+:ADMINLOGIN45455
+cls
+edit OsGar
+goto %PROGRAM%
+
 :home
 cls
 goto system2
