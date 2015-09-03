@@ -96,9 +96,17 @@ COMMAND LIST
 cls
 goto system2
 
+:OsGarcheck
+if exist "C:\USERS\%USERNAME%\DESKTOP\NODE.EXE" (
+goto OsGar2C
+) ELSE (
+echo ERROR failed with downloading "ws" Make shore that you got NODE.js
+ping localhost -n 10 >nul
+goto system2
+)
+
 :OsGar
 cls
-npm install ws
 echo -made by McRaZickPL
 echo Connecting.
 ping localhost -n 2 >nul
@@ -139,7 +147,10 @@ echo -made by McRaZickPL
 echo ...
 ping localhost -n 5 >nul
 cls
-color 6
+goto OsGarcheck
+
+:OsGar2C
+color f
 cls
 echo "ws" had been downloaded, Cannot connect to the localhost
 echo 5
@@ -165,6 +176,11 @@ echo "ws" had been downloaded, Cannot connect to the localhost
 echo 0
 ping localhost -n 2 >nul
 color f
+cls
+echo OsGar- Reloading... After reloading system will close
+echo OsGar- If it gonna close, Open OsGar again.
+ping localhost -n 5 >nul 
+npm install ws
 goto system2
 
 
